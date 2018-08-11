@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-Vue.directive('smoothResize', {
+Vue.directive('smoothresize', {
   update (el, binding, vnode) {
     el.style.height = 'auto'
     let transitionTime = (binding.value && binding.value.transition) || 300
